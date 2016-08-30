@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    background: skyblue;
+}
+
+* {
+    font-family: arial, sans-serif;   
+}  
+
+select[name="ResponseID"] {
+    width: 12em;
+}
+
+select[name="DestQueueID"] {
+    width: 12em;
+}
+
+
+.header {
+    display: none;
+}
+
+.priorityID-3 {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+.mainhead {
+    background-color: #DDD;
+    font-size: 16px;
+    color: #3C537F;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.contentbody, .menu, .footer, .mainkey, .mainvalue {
+    background-color: #3C537F;
+    color: white;
+}
+
+.contentbody a, .menu a {
+    color: white;
+    text-decoration: none;
+}
+
+td.mainbody td.contenthead {
+    display: none;   
+}
+
+td.mainbody td.contentfooter {
+    background-color: white;
+}
+
+td.mainbody td.contentbody {
+    background-color: white;
+    color: black;
+}
+
+td.mainbody td.contentbody a {
+    color: black;   
+}
+
+form[name="compose"] td.contenthead {
+    display: table-cell;
+    font-size: 16px;
+    color: white;
+    background-color: #3C537F;
+}
+
+img[src="/otrs-web/images/Standard/warning.png"] {
+    display: none;
+}
+
+td[width="25"] {
+    display: none;
+}
+
+.small[align="right"] {
+    display: none;
+}
+
+.nav {
+    width: auto !important;   
+}
+
+.navitem > img, .navitem > br {
+    display: none;
+}
+
+.navitem {
+    background-color: #3C537F;
+    padding: 5px;
+    position: relative;
+    top: 10px;
+    margin: 3px;
+    border-radius: 5px;
+    font-size: 14px !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+input, select, a[href=''], a[href='#attachment'] {
+    text-decoration: none;
+    background-color: #3C537F;
+    color: white;
+    border-radius: 5px;
+    border-width: 0;
+    padding: 5px;
+}
+
+a[href=''] img, a[href='#attachment'] img {
+    display: none;   
+}
+
+input[type="text"], textarea {
+    background-color: white;
+    color: #3C537F;
+    border: 1px solid #3C537F;
+    border-radius: 5px;
+    padding: 5px;
+}
