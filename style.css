@@ -110,6 +110,10 @@ input, input.button, select, a[href=''], a[href='#attachment'] {
     padding: 5px;
 }
 
+.button {
+    cursor: pointer;
+}
+
 a[href=''] img, a[href='#attachment'] img {
     display: none;   
 }
