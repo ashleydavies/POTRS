@@ -1,2 +1,2 @@
 # POTRS
-Pretty OTRS
+Pretty OTRS stylesheet. Designed for OTRS 1.x.
