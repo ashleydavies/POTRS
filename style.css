@@ -101,7 +101,7 @@ td[width="25"] {
     text-decoration: none !important;
 }
 
-input, select, a[href=''], a[href='#attachment'] {
+input, input.button, select, a[href=''], a[href='#attachment'] {
     text-decoration: none;
     background-color: #3C537F;
     color: white;
