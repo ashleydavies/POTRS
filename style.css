@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: skyblue;
+    background: white;
 }
 
 * {
@@ -82,7 +82,8 @@ td[width="25"] {
 }
 
 .nav {
-    width: auto !important;   
+    width: auto !important;
+    clear: both;
 }
 
 .navitem > img, .navitem > br {
@@ -92,13 +93,27 @@ td[width="25"] {
 .navitem {
     background-color: #3C537F;
     padding: 5px;
+    display: inline-block;
     position: relative;
-    top: 10px;
-    margin: 3px;
+    margin: 6px;
+    margin-bottom: 0;
     border-radius: 5px;
     font-size: 14px !important;
     color: white !important;
     text-decoration: none !important;
+}
+
+@media (max-width: 1200px) {
+    .navitem {
+        font-size: 10px !important;
+        margin: 2px;
+    }
+}
+
+@media (max-width: 900px) {
+    a[href="/otrs/index.pl?Action=AgentTicketPhone"], a[href="/otrs/index.pl?Action=AgentTicketEmail"], a[href="/otrs/index.pl?Action=SystemStats"], a[href="/otrs/index.pl?Action=SystemStatsTopTickets"] {
+        display: none;	
+    }
 }
 
 input, input.button, select, a[href=''], a[href='#attachment'] {
