@@ -1,11 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans+Mono';
+
 body {
     margin: 0;
     background: white;
 }
 
 * {
-    font-family: arial, sans-serif;   
+    font-family: arial, sans-serif;
 }  
+
+.message {
+    font-family: "Droid Sans Mono";
+    font-size: 12px;
+    font-weight: 300;
+}
 
 select[name="ResponseID"] {
     width: 12em;
@@ -28,11 +36,12 @@ select[name="DestQueueID"] {
 }
 
 .mainhead {
-    background-color: #DDD;
+    background-color: #D6ECFC;
+    border-top: 1px solid #3C547F;
     font-size: 16px;
     color: #3C537F;
     font-weight: 400;
-    padding: 10px;
+    padding: 8px;
 }
 
 .contentbody, .menu, .footer, .mainkey, .mainvalue {
